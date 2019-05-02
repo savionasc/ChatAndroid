@@ -5,16 +5,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class LocalizacaoActivity extends AppCompatActivity {
+public class ChatActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_localizacao);
+        setContentView(R.layout.activity_chat);
     }
 
-    public void voltar(View view) {
-        Intent it = new Intent(LocalizacaoActivity.this, ChatActivity.class);
+    public void localizacao(View view) {
+        Intent it = new Intent(ChatActivity.this, LocalizacaoActivity.class);
         startActivity(it);
     }
+
 }
