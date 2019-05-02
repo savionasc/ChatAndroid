@@ -3,11 +3,11 @@ package com.trab.android.chat.chatandroid;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class CadastroActivity extends AppCompatActivity {
+public class CadastroSalaActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cadastro);
+        setContentView(R.layout.activity_cadastro_sala);
     }
 }
